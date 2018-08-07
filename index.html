@@ -1,0 +1,230 @@
+<!--                        
+	8b           d8            88  88           88  88  
+	`8b         d8'            88  88           ""  88  
+	 `8b       d8'             88  88               88  
+	  `8b     d8'  ,adPPYba,   88  88,dPPYba,   88  88  
+	   `8b   d8'  a8"     "8a  88  88P'    "8a  88  88  
+	    `8b d8'   8b       d8  88  88       d8  88  88  
+	     `888'    "8a,   ,a8"  88  88b,   ,a8"  88  88  
+	      `8'      `"YbbdP"'   88  8Y"Ybbd8"'   88  88  
+-->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+		<title>Volodymyr Biloshytskyi | Volbil</title>
+		<meta name="description" content="Володимир Білошицький | Volbil">
+
+		<link rel="shortcut icon" type="image/png" href="/favicon.png?10">
+		<link rel="apple-touch-icon" href="/img/favicons/apple-touch-icon.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="/img/favicons/apple-touch-icon-72x72.png?10">
+		<link rel="apple-touch-icon" sizes="114x114" href="/img/favicons/apple-touch-icon-114x114.png?10">
+
+		<!-- Колір шапки вікна -->
+		<meta name="theme-color" content="#973F90">
+		<meta name="msapplication-navbutton-color" content="#973F90">
+		<meta name="apple-mobile-web-app-status-bar-style" content="#973F90">
+		<!-- Картинка для прев'ю в соцмережах -->
+		<meta property="og:image" content="/img/og_image.png">
+
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+        <style>
+        	@font-face {
+			    font-family: 'Ubuntu-Regular';
+			    src: url('fonts/ubuntu-regular-webfont.eot');
+			    src: url('fonts/ubuntu-regular-webfont.eot?#iefix') format('embedded-opentype'),
+			         url('fonts/ubuntu-regular-webfont.woff') format('woff'),
+			         url('fonts/ubuntu-regular-webfont.ttf') format('truetype'),
+			         url('fonts/ubuntu-regular-webfont.svg#ubunturegular') format('svg');
+			    font-weight: normal;
+			    font-style: normal;
+			}
+			body,
+			html {
+			    height: 100%
+			}
+			body {
+			    font-family: Ubuntu-Regular;
+			    background: linear-gradient(230deg, #f10142, #3d7cde);
+				background-size: 400% 400%;
+				-webkit-animation: background-grad 38s ease infinite;
+				-moz-animation: background-grad 38s ease infinite;
+				-o-animation: background-grad 38s ease infinite;
+				animation: background-grad 38s ease infinite;
+			    color: #fff;
+			    margin: 0;
+			    padding: 0 20px;
+			}
+			.main-wrapper {
+			    height: 100%;
+			    padding: 0;
+			    margin: 0;
+			    display: -webkit-box;
+			    display: -moz-box;
+			    display: -ms-flexbox;
+			    display: -webkit-flex;
+			    display: flex;
+			    align-items: center;
+			    justify-content: center
+			}
+			.main-wrapper .main-inner {
+			    width: auto;
+			    padding: 15px 0px;
+			}
+			.main-wrapper a {
+			    text-decoration: none;
+			    transition: ease-out .2s;
+			}
+			.main-wrapper a:hover {
+			    transition: ease-out .2s;
+			}
+
+			.main-wrapper .photo {
+			    width: 250px;
+			    height: 250px;
+			    background-size: 250px 250px;
+			    background-position: top left;
+			    background-repeat: no-repeat;
+			    display: inline-block;
+			    border-radius: 50%;
+			    border: none;
+			   	box-shadow: 0px 3.5px 0px rgba(0, 0, 0, 0.1);
+			    transition: all 100ms ease-in;
+			}
+
+			.main-wrapper .contacts {
+				text-align: center;
+				padding-top: 10px;
+			}
+
+			.main-wrapper .contacts a {
+				display: inline-block;
+				border-radius: 50%;
+			    border: none;
+			    background: #fff;
+			    box-shadow: 0px 3.5px 0px rgba(0, 0, 0, 0.1);
+			    border: 3px solid #fff;
+			}
+			.main-wrapper .contacts a:hover {
+				box-shadow: 0px 2.5px 0px rgba(0, 0, 0, 0.1);
+				border: 3px solid #0088cc;
+			}
+
+			.main-wrapper .contacts a.telegram {
+				padding: 10px 11px 10px 9px;
+			}
+			.main-wrapper .contacts a .icon.telegram {
+				width: 30px;
+				height: 30px;
+				background: url(img/telegram-icon.svg);
+			}
+			.main-wrapper .contacts a.email {
+				padding: 11px 10px 9px 10px;
+			}
+			.main-wrapper .contacts a .icon.email {
+				width: 30px;
+				height: 30px;
+				background: url(img/mail-icon.svg);
+			}
+			.main-wrapper .contacts a.vk {
+				padding: 8px 8px 7px 7px;
+			}
+			.main-wrapper .contacts a .icon.vk {
+				width: 35px;
+				height: 35px;
+				background: url(img/vk-icon.svg);
+			}
+	
+			.main-wrapper .portfolio-btn {
+				display: block;
+				text-align: center;
+				padding-top: 10px;
+			}
+			.main-wrapper .portfolio-btn a {
+				background: #fff;
+				color: #000;
+				display: inline-block;
+				font-size: 20px;
+			    border: none;
+			    text-decoration: none;
+			    padding: 13px 0px;
+			    box-shadow: 0px 3.5px 0px rgba(0, 0, 0, 0.1);
+			    border: 3px solid #fff;
+			    border-radius: 90px;
+			    width: 170px;
+			}
+			.main-wrapper .portfolio-btn a:hover {
+				border: 3px solid #0088cc;
+				box-shadow: 0px 2.5px 0px rgba(0, 0, 0, 0.1);
+			}
+
+			/* Медіа запити */
+			@media only screen and (max-width: 768px) {
+			    body {
+			        text-align: center
+			    }
+			    .main-wrapper p {
+			        font-size: 26px;
+			        margin-top: -15px
+			    }
+			    .main-wrapper h1 {
+			        margin-left: -3px;
+			        font-size: 100px
+			    }
+			}
+
+			@-webkit-keyframes background-grad {
+			    0%{background-position:0% 14%}
+			    50%{background-position:100% 87%}
+			    100%{background-position:0% 14%}
+			}
+			@-moz-keyframes background-grad {
+			    0%{background-position:0% 14%}
+			    50%{background-position:100% 87%}
+			    100%{background-position:0% 14%}
+			}
+			@-o-keyframes background-grad {
+			    0%{background-position:0% 14%}
+			    50%{background-position:100% 87%}
+			    100%{background-position:0% 14%}
+			}
+			@keyframes background-grad {
+			    0%{background-position:0% 14%}
+			    50%{background-position:100% 87%}
+			    100%{background-position:0% 14%}
+			}
+
+
+        </style>
+	</head>
+	<body>
+	    <div class="main-wrapper">
+		    <div class="main-inner"> 
+	        	<div class="photo" style="background-image:url(img/ava.jpg);background-color:#fbfbfb;"></div>
+	        	<div class="contacts">
+	        		<a target="_blank" href="http://t.me/volbil" class="telegram">
+	        			<div class="icon telegram"></div>
+	        		</a>
+	        		<a href="mailto:hello@volbil.com" class="email">
+	        			<div class="icon email"></div>
+	        		</a>
+	        		<a href="https://vk.com/volbil" class="vk">
+	        			<div class="icon vk"></div>
+	        		</a>
+	        	</div>
+	        	<div class="portfolio-btn">
+	        		<a href="#" onclick="event.preventDefault(); alert('Soon :D');">
+	        			My portfolio
+	        		</a>
+	        	</div>
+		    </div>
+		</div>
+	</body>
+</html>
